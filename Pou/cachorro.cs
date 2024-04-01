@@ -1,6 +1,7 @@
 using Pou;
 
-public class cachorro ; personagem
+public class cachorro : personagem
 {
-    
+  
 }
+     
