@@ -4,24 +4,27 @@
              x:Class="Pou.MainPage"
              Shell.NavBarIsVisible="false">
     <Grid>
-<Grid.RowDefinitions>
-    <RowDefinition Height="*"/>
-    <RowDefinition Height="70"/>
-    <RowDefinition Height="70"/>
-    </Grid.RowDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
 
-    <Image Source="planodefundonovo.jpg"
-    Aspect="AspectFill"
-    Grid.RowSpan="3"/>
-
-    <Image Source="cachorro.png"
-           Aspect="AspectFill"
-           WidthRequest="500"
-           HeightRequest="500"
-           Grid.RowSpan="3"/>
-     
+        <Grid.ColumnDefinitions>
+        <ColumnDefinitions Width="*"
+        <
 
 
+        <Image Source="planodefundonovo.jpg"
+            Aspect="AspectFill"
+            Grid.RowSpan="3"/>
+
+        <Image Source="cachorro.png"
+                Aspect="AspectFill"
+                HeightRequest="500"
+                Grid.RowSpan="3"/>
+           
+        
     </Grid>
 
 
